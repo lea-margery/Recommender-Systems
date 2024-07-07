@@ -36,7 +36,7 @@ However, the predicted ratings determined by the algorithm were not really satis
 
 Which is why, the second model implemented is a variant of SVD, the Funk SVD, which is designed to work with sparse matrix. It is also very efficient and has a computational efficiency. 
 
-Finally it was the best option and the results are pretty interesting.
+After the implementation, the model was evaluated on the test set to check if the recommendations were fair and logic.
 
 
 ## 🎞️ Results and Conclusion <a name="conclusion"></a>
