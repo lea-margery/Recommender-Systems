@@ -21,6 +21,8 @@ The first step of the creation of this recommender system was to load the datase
 - MovieLens ml-1m
 - IMDb dataset
 
+In order to make recommendations to a couple, we will first make movies recommendations for each user and then combine them using the mean. This ensures that when one person will probably hate a movie, it won't be the most recommended.
+
 After loading the dataset and taking a look at the data, an important step was to take into account the common problems we face in recommender systems. 
 - Popularity bias: some systems disproportionately favors popular items, leading to recommendations that often include only the most well-know items. 
 - Cold start: it is difficult to generate accurate recommendations when a new user or a new item joins the system. Indeed there is insufficient data about preferences ans similarities.
